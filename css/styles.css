@@ -447,67 +447,6 @@ section {
   box-shadow: var(--shadow-card);
 }
 
-.contact-form {
-  background: var(--color-white);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-card);
-  padding: 2rem;
-  margin-top: 2.5rem;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
-}
-
-.form-group {
-  margin-bottom: 1.2rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group label {
-  font-weight: 600;
-  margin-bottom: 0.4rem;
-  font-size: 0.9rem;
-}
-
-.form-group input,
-.form-group textarea {
-  padding: 0.7rem 0.9rem;
-  border: 1px solid #e0d2ba;
-  border-radius: 8px;
-  font-family: var(--font-body);
-  font-size: 1rem;
-  background: var(--color-bg);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 1px;
-}
-
-.form-error {
-  color: var(--color-primary);
-  font-size: 0.82rem;
-  margin-top: 0.3rem;
-  min-height: 1.1em;
-}
-
-.form-status {
-  margin-top: 1rem;
-  font-weight: 600;
-  color: var(--color-primary-dark);
-}
-
-@media (max-width: 640px) {
-  .form-row {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Menu page */
 .menu-hero {
   background: linear-gradient(rgba(43, 20, 14, 0.72), rgba(43, 20, 14, 0.72)),
