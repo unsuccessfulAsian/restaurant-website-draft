@@ -2,7 +2,9 @@
 
 This is a website I built for Pho Vietnam 3969, a Vietnamese and Chinese restaurant in Niagara Falls, Ontario. It is the second version of the site.
 
-The goal was simple: let customers quickly see the menu, find the restaurant, and place an order, on any device.
+The goal was to improve the current website, allow customers quickly see the menu without issue, find the restaurant, and place an order, on any device.
+
+This project has yet to been shipped as the official website for this restaurant, so I am keeping this as a public repository for the time being.
 
 ## What it does
 
@@ -42,6 +44,8 @@ python -m http.server
 ```
 
 Then open `http://localhost:8000`.
+
+This website can also be accessed through https://phovietnam3969.vercel.app/
 
 ## Project structure
 
